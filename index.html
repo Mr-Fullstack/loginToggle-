@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap" rel="stylesheet">
+  <title>Login Toogle</title>
+</head>
+<body>
+  
+  <header>
+    <img src="" alt="">
+    <span><h1>namebusiness</h1></span>
+  </header>
+  <div class="flip-card">
+      <label class="switch">
+        <span id="tooltip"> </span>
+          <input type="checkbox">
+          <span id="toogle" class="slider round"></span>
+      </label>
+    <section class="area form flip-card-inner">
+      <form id="jw_log" action="" name="log"  class="flip-card-front">
+        <h3>Login:</h3>
+        <div class="input">
+            <label for="">email</label>
+            <input type="email" name="nome">
+        </div>
+        <div class="input">
+          <label for="">password</label>
+          <input type="password" name="email" id="">
+        </div>
+      </form>
+      <form  id="jw_cad"  action="" name="cad" class="flip-card-back">
+          <h3>Cadastrar:</h3>
+          <div class="input">
+              <label for="">nome</label>
+              <input type="text" name="nome">
+          </div>
+          <div class="input">
+            <label for="">email</label>
+            <input type="email" name="email" id="">
+          </div>
+          <div class="input">
+              <label for="">password</label>
+              <input type="password" name="senha" id="">
+          </div>
+        </form>
+        <section id="jw_recovery" class="recovery">
+            <span id="jw_btn_recovery" class="btn-recovery"> recovery</span>
+            <div class="form-recovery">
+              <form action="" id="recovery-pass">
+                  <div class="input">
+                      <label for="">email</label>
+                      <input type="email" name="email" id="" >
+                  </div>
+                  <input type="submit" value="recovery">
+              </form>
+            </div>
+          </section>
+    </section>
+  </div>
+<footer>
+  footer
+</footer>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+<script src="validar.form.js"></script>
+</body>
+</html>
