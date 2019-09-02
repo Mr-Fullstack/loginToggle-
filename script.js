@@ -19,11 +19,11 @@ else
 function toogleed(tooglado){
   if (tooglado) 
   {
-    tooltip.innerHTML = "logar";
+    tooltip.innerHTML = "log in";
   }
   else
   {
-    tooltip.innerHTML = "Cadastrar"; 
+    tooltip.innerHTML = "register"; 
   }
 }
 
